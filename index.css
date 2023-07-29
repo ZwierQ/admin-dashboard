@@ -28,6 +28,12 @@ body {
     padding: 0 25px;
 }
 
+.nav .notification:hover {
+    filter: invert(11%) sepia(100%) saturate(6779%) hue-rotate(9deg)
+        brightness(98%) contrast(93%);
+    cursor: pointer;
+}
+
 .search-bar {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -166,7 +172,8 @@ ul li {
 }
 
 .card-icons > img:hover {
-    filter: invert(50%);
+    filter: invert(11%) sepia(100%) saturate(6779%) hue-rotate(9deg)
+        brightness(98%) contrast(93%);
 }
 
 .announcements-container {
@@ -222,12 +229,12 @@ button {
     border-radius: 15px;
     transform: scale(1.03);
     transition: transform ease-in;
+    cursor: pointer;
 }
 
 button:active {
     transform: scale(1.1);
-    transition: traddnsform 0s ease-in;
-    cursor: pointer;
+    transition: transform 0s ease-in;
 }
 
 p {
